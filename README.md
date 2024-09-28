@@ -1,0 +1,2 @@
+# Tech-Interview-Prep
+ 🚀 Welcome to Tech-Interview-Prep! This repository provides a well-organized collection of essential coding challenges and solutions to help you prepare for technical interviews. Covering a wide range of Data Structures, Algorithms, and problem-solving techniques, each solution is optimized and explained in detail. Perfect for those aiming to crack coding interviews at top tech companies.
