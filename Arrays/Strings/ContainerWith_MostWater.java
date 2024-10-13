@@ -1,13 +1,22 @@
 public class ContainerWith_MostWater {
     public static int StoreWater(int height[]){
         int maxWater=0;
-        for(int i=0;i<height.length;i++){
-            for(int j=i+1;j<height.length;j++){
-                int ht=Math.min(height[i],height[j]);
-                int width=j-i;
-                int currWater=ht*width;
+        int left=0;
+        int right=height.length-1;
 
-                maxWater=Math.max(maxWater,currWater);
+        while(left<right){
+            int widht=right-left;
+
+            int ht=Math.min(height[left],height[right]);
+            int currWater=ht*widht;
+
+            maxWater=Math.max(maxWater,currWater);
+
+            if(height[left]<height[right]){
+                left++;
+            }
+            else{
+                right--;
             }
         }
         return maxWater;
