@@ -12,7 +12,7 @@ public class Rotate_Image {
             }
         }
 
-         // step 1 :Reverse each row
+         // step 2 :Reverse each row
 
         for(int i=0;i<n;i++){
             for(int j=0;j<n/2;j++){
