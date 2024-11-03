@@ -32,7 +32,7 @@ public class LinkedList_Cycle {
        head.next.next=new Node(0);
        head.next.next.next=new Node(-4);
        head.next.next.next.next=head;
-       //1->2->-3->1
+       
        System.out.println(isCycle());
    } 
 }
